@@ -139,9 +139,6 @@ function shrinkVideo() {
     scale: 0.94,
     duration: 0.5, // Duration of the shrink animation
     ease: "power2.out", // Easing for a smooth effect
-    onComplete: () => {
-      console.log("Video has shrunk."); // Optional: log when the video has shrunk
-    },
   });
 }
 
@@ -151,9 +148,6 @@ function expandVideo() {
     scale: 1, // Scale back to original size
     duration: 0.5, // Duration of the expand animation
     ease: "power2.out", // Easing for a smooth effect
-    onComplete: () => {
-      console.log("Video has expanded back to original size."); // Optional: log when the video has expanded
-    },
   });
 }
 
